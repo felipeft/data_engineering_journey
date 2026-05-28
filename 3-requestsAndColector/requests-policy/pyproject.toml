@@ -1,0 +1,28 @@
+[project]
+name = "requests-policy"
+version = "0.1.0"
+description = "Reqests with Timeout and Retry Policies."
+authors = [
+    {name = "felipeft_",email = "felipeflw11@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)",
+    "requests-toolbelt (>=1.0.0,<2.0.0)"
+]
+
+[tool.poetry.scripts]
+start = "requests_policy.main:start"
+
+[tool.poetry]
+packages = [{include = "requests_policy", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "black (>=26.5.1,<27.0.0)"
+]
