@@ -4,13 +4,31 @@ def average_column(csv_path):
         total_sum = 0
         element_count = 0  #  conta quantos números de fato existem
         
-        for row in f:
+
+        # como que se percorre uma matriz?
+        # R: dois laços de repetição onde percorre as linhas e valores respectivamente
+        # ex:
+        # matriz = [
+        #     [10, 20, 30],
+        #     [40, 50, 60],
+        #     [70, 80, 90]
+
+        # soma_total = 0
+        # quantidade_elementos = 0
+
+        # for linha in matiz:
+        #     for numero in linha:
+        #         soma_total += numero
+        #         quantidade_elementos += 1
+        #vamos segui mais ou menos o mesmo principio aqui
+
+        for row in f:   # "f" foi como chamamos o csv la em cima no with
             # strip() remove quebras de linha (\n) que ficam no final de cada linha do arquivo
             # split(',') divide a linha toda vez que encontrar uma vírgula
             for column in row.strip().split(','):
                 
                 # garante que não vai tentar converter strings vazias em float
-                if column: 
+                if column: # if column nao for vazia...
                     n = float(column)
                     total_sum += n
                     element_count += 1

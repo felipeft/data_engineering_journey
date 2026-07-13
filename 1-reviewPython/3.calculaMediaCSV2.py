@@ -1,5 +1,8 @@
-import csv
+# no codigo 2, calcular a media daquele csv de financeiro familiar nao funciona pois nao havia
+# estrutura semantica e significado nos dados brutos do csv
+# aqui tentaremos fazer a mesma coisa porem fazendo uma simples transformação
 
+import csv
 
 def average_numbers(csv_path):
     total_sum = 0.0
@@ -9,10 +12,10 @@ def average_numbers(csv_path):
 
         csv_reader = csv.reader(file)
 
-        for row in csv_reader:
+        for row in csv_reader:      # lembre-se da logica de percorrer a matriz...
             for cell in row:
 
-                # limpando valores que podem haver la em reais
+                # limpando valores que podem haver em reais
                 clean_cell = cell.strip().replace('R$', '').replace(' ', '')
                 clean_cell = clean_cell.replace('.', '').replace(',', '.')
 
