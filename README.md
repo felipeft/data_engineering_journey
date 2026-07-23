@@ -5,11 +5,12 @@ Este repositório documenta minha jornada de transição e especialização em E
 A ideia é que consiga consolidar bem alguns conceitos de:
 - Python
 - SQL
-- PostgreSQL
 - ETL
 - APIs
 - Docker
-- AWS
+- Terminologia de engenharia de dados
+- Databricks
+- PySpark
 - Automação de Dados
 - Engenharia de Dados
 
