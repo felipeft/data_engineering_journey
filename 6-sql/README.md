@@ -12,10 +12,24 @@ Alguns scripts presentes nesta pasta (como os scripts de criação dos bancos de
 ## Progresso
 
 ### Dia 1
-- Configuração do ambiente (PostgreSQL e DBeaver).
+- Configuração do ambiente (SQL SERVER com Docker e DBeaver).
 - Estudo introdutório de DQL.
 - Prática com as cláusulas:
   - `SELECT`
   - `FROM`
   - `WHERE`
   - `ORDER BY`
+
+
+### Dia 2
+- Continuação de DQL praticando com as cláusulas:
+  - `GROUP BY`
+  - `HAVING`
+  - `DISTINCT`
+  - `TOP`
+
+- Estudo de DQL (CREATE, ALTER, DROP)
+
+- ESTUDO DE DML (INSERT, UPDATE, DELETE )
+  - Nunca faça update sem WHERE ou muito menos DELETE/TRUNCATE...
+
