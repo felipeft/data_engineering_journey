@@ -49,3 +49,14 @@ Alguns scripts presentes nesta pasta (como os scripts de criação dos bancos de
   - `LEFT JOIN`
   - `RIGHT JOIN`
   - `FULL JOIN`
+
+
+## Dia 4
+
+- Estudo de advanced Joins:
+  - `LEFT ANTI JOIN`
+  - `RIGHT ANTI JOIN`
+  - `FULL ANTI JOIN`
+  - `CROSS JOIN`
+
+- Decision Tree para saber quando escolher um tipo de JOIN 
