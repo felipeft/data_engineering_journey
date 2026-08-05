@@ -61,3 +61,13 @@ Alguns scripts presentes nesta pasta (como os scripts de criação dos bancos de
 
 - Decision Tree para saber quando escolher um tipo de JOIN 
 - Conceitos e desafio de Multiple Tables com diversas JOINS
+
+## Dia 5
+
+- Estudo de Set Operators
+  - `UNION`
+  - `UNION ALL`
+  - `EXCEPT`
+  - `INTERSECT`
+
+- Aprendizado de casos de usos para UNION (combine information) e EXCEPT (Delta detection and Data completness check), além da utilização de boas práticas.
