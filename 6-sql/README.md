@@ -60,3 +60,4 @@ Alguns scripts presentes nesta pasta (como os scripts de criação dos bancos de
   - `CROSS JOIN`
 
 - Decision Tree para saber quando escolher um tipo de JOIN 
+- Conceitos e desafio de Multiple Tables com diversas JOINS
