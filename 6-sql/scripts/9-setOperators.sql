@@ -174,6 +174,56 @@ FROM sales.Employees as e;
 
 
 
+-- INTERSECT: Returns only the rows that are common in both queries
+-- Remove duplicates
+
+-- TASK: Find employees, who are also customers.
+SELECT
+	e.FirstName,
+	e.LastName 
+FROM sales.Employees as e
+
+INTERSECT
+
+SELECT
+	c.FirstName,
+	c.LastName 
+FROM sales.customers as c;
 
 
+
+
+-- UNION CASES
+-- COMBINE INFORMATION: Combine similar information before analyzing the data
+
+-- TASK: Orders are Stored in separate tables (Orders and OrdersArchive).
+-- Combine all orders data into one report without duplicates.
+SELECT * FROM sales.Orders
+UNION
+SELECT * FROM sales.OrdersArchive;
+
+
+-- BEST PRACTICE: never use an asterisk * to combine tables; list needed columns instead
+SELECT 
+	OrderID, ProductID, CustomerID, SalesPersonID, OrderDate, ShipDate, OrderStatus, ShipAddress, BillAddress, Quantity, Sales, CreationTime
+FROM sales.Orders
+UNION
+SELECT
+	OrderID, ProductID, CustomerID, SalesPersonID, OrderDate, ShipDate, OrderStatus, ShipAddress, BillAddress, Quantity, Sales, CreationTime
+FROM sales.OrdersArchive;
+
+-- Copy by command: right click on table, click "generate SQL", then "SELECT"
+
+
+-- To know the source of each data:
+SELECT 
+	'Orders' as SourceTable,
+	OrderID, ProductID, CustomerID, SalesPersonID, OrderDate, ShipDate, OrderStatus, ShipAddress, BillAddress, Quantity, Sales, CreationTime
+FROM sales.Orders
+UNION
+SELECT
+	'OrdersArchive' as SourceTable,
+	OrderID, ProductID, CustomerID, SalesPersonID, OrderDate, ShipDate, OrderStatus, ShipAddress, BillAddress, Quantity, Sales, CreationTime
+FROM sales.OrdersArchive
+ORDER BY OrderID;
 

@@ -71,3 +71,30 @@ Alguns scripts presentes nesta pasta (como os scripts de criação dos bancos de
   - `INTERSECT`
 
 - Aprendizado de casos de usos para UNION (combine information) e EXCEPT (Delta detection and Data completness check), além da utilização de boas práticas.
+
+## Dia 6
+
+- Estudo de Funções SQL
+- Conhecendo todas as functions
+- Divisão entre single-row functions e multi-rows functions
+
+- Estudo de dois grupos de funções single-row:
+  - String functions:
+    - Manipulation
+      - `CONCAT`
+      - `UPPER`
+      - `LOWER`
+      - `TRIM`
+      - `REPLACE`
+    
+    - Calculation
+      - `LEN`
+
+    - String extract
+      - `LEFT`
+      - `RIGHT`
+      - `SUBSTRING`
+
+  - Numeric functions:
+    - `ROUND`
+    - `ABS`
