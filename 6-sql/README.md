@@ -98,3 +98,29 @@ Alguns scripts presentes nesta pasta (como os scripts de criação dos bancos de
   - Numeric functions:
     - `ROUND`
     - `ABS`
+
+## Dia 7
+
+- Continuação dos estudos de funções single-row
+- Estudo completo e detalhado de Date & Time Functions
+- Dividas em:
+  - PART EXTRACTION
+    - `DAY`
+    - `MONTH`
+    - `YEAR`
+    - `DATEPART`
+    - `DATENAME`
+    - `DATETRUNC`
+    - `EOMONTH`
+  
+  - FORMAT & CASTING
+    - `FORMAT`
+    - `CONVERT`
+    - `CAST`
+
+  - CALCULATIONS
+    - `DATEADD`
+    - `DATEDIFF`
+  
+  - VALIDATION
+    - `ISDATE`
