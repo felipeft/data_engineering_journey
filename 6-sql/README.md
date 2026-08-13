@@ -9,6 +9,8 @@ Os estudos desta etapa são baseados no curso de SQL disponibilizado pelo canal 
 
 Alguns scripts presentes nesta pasta (como os scripts de criação dos bancos de dados utilizados nas aulas) foram fornecidos pelo autor do curso e estão sendo utilizados exclusivamente para fins de estudo e prática.
 
+O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre o assunto estudado. Além de revisão sistemática, anotações, comentários nos códigos e etc.
+
 ## Progresso
 
 ### Dia 1
