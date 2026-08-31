@@ -149,3 +149,13 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
 		- `CASE: Optimize storage and perfomance` 
   - #3: Use the Default Value 'unknown' and avoid using NULLS, EMPTY STRINGS and BLANK SPACES  
 		- `CASE: Best to using it in reporting to improve readiblity and reduce confusion`
+
+
+## Dia 9
+
+- Estudo do uso de CASE STATEMENT
+- Estudo de 4 casos de usos para case statement:
+  - Categorizing Data
+  - Mapping Values
+  - handling nulls
+  - conditional aggregations
