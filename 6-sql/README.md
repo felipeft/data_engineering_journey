@@ -126,3 +126,26 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
   
   - VALIDATION
     - `ISDATE`
+
+## Dia 8
+
+- Estudo completo das NULL Functions
+- Divididas entre:
+  - REPLACE VALUES:
+    - `ISNULL`
+    - `COALESCE`
+    - `NULLIF`
+
+  - BOOLEAN:
+    - `ISNULL`
+    - `IS NOT NULL`
+
+- NULLS sao carateres especiais que significam 'missing value"
+- Utilizar NUlls pode otimizar armazenamento e perfomance
+- Diferença entre NULL, EMPTY STRING e BLANK SPACE
+- Estudo de 3 Data policies:
+  - #1: Only use NULLS and EMPTY STRINGS, but avoid BLANK SPACES
+  - #2: Only use NULLS and, avoid using EMPTY STRINGS and BLANK SPACES  
+		- `CASE: Optimize storage and perfomance` 
+  - #3: Use the Default Value 'unknown' and avoid using NULLS, EMPTY STRINGS and BLANK SPACES  
+		- `CASE: Best to using it in reporting to improve readiblity and reduce confusion`
