@@ -159,3 +159,25 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
   - Mapping Values
   - handling nulls
   - conditional aggregations
+
+## Dia 10
+
+- Estudo de aggregate functions:
+  - `COUNT(*)`
+  - `SUM()`
+  - `AVG()`
+  - `MAX()`
+  - `MIN()`
+
+## Dia 11
+
+- Estudo básico de Window Functions
+- Diferença entre GROUP BY e Window functions e porque ela é mais completa para análises de dados com maior granularidade
+- Estudo da sintaxe
+  - `Window Func OVER(PARTITION BY ... ORDER BY ... ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)`
+- Sintaxe completa da clasula FRAME
+  - `ROWS` / `RANGE`
+  - `CURRENT ROW` / `N PRECEDING` / `UNBOUNDED PRECEDING`
+  - `CURRENT ROW` / `N FOLLOWING` / `UNBOUNDED FOLLOWING`
+
+- Estudo de 4 regras para window functions
