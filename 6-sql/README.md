@@ -181,3 +181,15 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
   - `CURRENT ROW` / `N FOLLOWING` / `UNBOUNDED FOLLOWING`
 
 - Estudo de 4 regras para window functions
+
+## Dia 12
+
+- Estudo das Aggregate Functions de Window functions
+  - `COUNT(*)`
+  - `SUM(expr)`
+  - `AVG(expr)`
+  - `MAX(expr)`
+  - `MIN(expr)` 
+
+- Comparison cases com `COUNT()`
+- Diferença entre Running Total e Rolling total
