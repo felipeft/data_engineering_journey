@@ -193,3 +193,18 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
 
 - Comparison cases com `COUNT()`
 - Diferença entre Running Total e Rolling total
+
+## Dia 13
+
+- Estudo das Rank Functions de Window Functions
+  - Dois tipos:
+    - Integer-based-ranking:
+      - `ROW_NUMBER()`
+      - `RANK()`
+      - `DENSE_RANK()`
+      - `NTILE()`
+    - Percentage-base-ranking:
+      - `CUME_DIST()`
+      - `PERCENT_RANK()`
+  
+- Casos de usos também para cada função ou grupos
