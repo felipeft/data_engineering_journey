@@ -208,3 +208,15 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
       - `PERCENT_RANK()`
   
 - Casos de usos também para cada função ou grupos
+
+## Dia 14
+
+- Estudo das Value Window Functions
+  - `LEAD()`
+  - `LAG()`
+  - `FIRST_VALUE()`
+  - `LAST_VALUE()`
+
+- Dois Casos de usos particulares para as funções `LEAD()` e `LAG()`:
+  - Time series analysis
+  - Customer retention analysis  
