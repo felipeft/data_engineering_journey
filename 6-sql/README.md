@@ -244,3 +244,4 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
 - Estudo de metade das subqueries de location | clauses
   - `FROM`
   - `SELECT`
+  - `JOIN CLAUSE`
