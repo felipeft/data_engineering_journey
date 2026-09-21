@@ -220,3 +220,27 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
 - Dois Casos de usos particulares para as funções `LEAD()` e `LAG()`:
   - Time series analysis
   - Customer retention analysis  
+
+## Dia 15
+
+- Estudo de tecnicas avançadas de SQL
+  - Subquery
+  - CTE (Common table expression)
+  - Views
+  - Temp Tables
+  - CTAS (Create table as select)
+
+- Inicio do estudo de subqueries
+  - Divisão em 3 categorias:
+    1. Dependacy
+    2. Result Type
+    3. Location | clauses
+
+- Estudo completo da categoria de result type, diferença entre:
+  - Scalar subquery
+  - Row subquery
+  - Table subquery
+
+- Estudo de metade das subqueries de location | clauses
+  - `FROM`
+  - `SELECT`
