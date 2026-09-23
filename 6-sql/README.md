@@ -245,3 +245,24 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
   - `FROM`
   - `SELECT`
   - `JOIN CLAUSE`
+
+## Dia 16
+
+- Continuação dos estudos de Subqueries
+ - Estudo de WHERE Clause que pode ser dividida entre:
+  - Comparison Operators
+    - `=`
+    - `!=`
+    - `<`
+    - `>`
+    - `<=`
+    - `>=`
+  - Logical Operators 
+    - `IN`
+    - `ANY`; `ALL`
+    - `EXISTS`
+
+  - Estudo também da diferença entre as dependências:
+    - Non-correlated subquery
+    - Correlated subquery
+  - Essênciais para o estudo do operator `EXISTS`
