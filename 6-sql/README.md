@@ -266,3 +266,16 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
     - Non-correlated subquery
     - Correlated subquery
   - Essênciais para o estudo do operator `EXISTS`
+
+## Dia 18
+
+- Estudo completo da técnica de CTE (Common table expression)
+- Entendimento dos conceitos básicos
+- Diferença entre subquerie
+- Tipos de CTEs:
+  - Non-recursive CTE
+    - Standalone CTE / Multiple Standalone CTE
+    - Nested CTE
+  - Recursive CTE
+
+- Casos de usos e regras gerais para CTEs
