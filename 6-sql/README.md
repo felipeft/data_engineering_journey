@@ -267,7 +267,7 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
     - Correlated subquery
   - Essênciais para o estudo do operator `EXISTS`
 
-## Dia 18
+## Dia 17
 
 - Estudo completo da técnica de CTE (Common table expression)
 - Entendimento dos conceitos básicos
@@ -279,3 +279,14 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
   - Recursive CTE
 
 - Casos de usos e regras gerais para CTEs
+
+## Dia 18
+
+- Estudo completo da técnica de Views VIEWS
+- Funcionamento, Sintaxe e casos de usos:
+  - 1. Central query logic
+  - 2. Hide complexity
+  - 3. Data security
+  - 4. Flexibility & Dynamic
+  - 5. Multiple languages
+  - 6. Virtual data marts in DWH
