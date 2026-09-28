@@ -290,3 +290,15 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
   - 4. Flexibility & Dynamic
   - 5. Multiple languages
   - 6. Virtual data marts in DWH
+
+  # Dia 19
+
+  - Estudo completo de CTAS (Create table as Select)
+    - Divisão dos tipos de tabelas:
+      - Permanent tables
+        - CREATE/INSERT
+        - CTAS
+      -  Temporary tables
+
+  - Sintaxe das CTAS
+  - Casos de usos para cada um dos tipos
