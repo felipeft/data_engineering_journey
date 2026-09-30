@@ -302,3 +302,16 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
 
   - Sintaxe das CTAS
   - Casos de usos para cada um dos tipos
+
+# Dia 20
+
+- Estudo das técnicas de Stored Procedure
+  - Conceitos
+  - Comparação com scripts em python
+  - Sintaxe
+    - Parameters
+    - Multiple statements
+    - Variables
+    - Cotrol Flow (IF/ELSE)
+    - Error handling (Try/Catch)
+    - Styling (organização e identação de código)
