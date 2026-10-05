@@ -315,3 +315,29 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
     - Cotrol Flow (IF/ELSE)
     - Error handling (Try/Catch)
     - Styling (organização e identação de código)
+
+# Dia 21
+
+- Estudo dá última técnica avançada de SQL: Triggers
+- Inico do estudo de Otimizações de perfomance
+- Estudo de Indexes
+  - Structure
+    - Clustered index
+    - Non Clustered index
+  - Storage
+    - Rowstore index
+    - Columnstore index
+  - Functions
+    - Unique index
+    - Filtered index
+
+## Dia 22
+  - Continuação do estudo de indexes
+  - Estudo completo dos indexes de:
+  Storage
+    - Rowstore index
+    - Columnstore index
+  - Functions
+    - Unique index
+    - Filtered index
+  - Index management techiniques
