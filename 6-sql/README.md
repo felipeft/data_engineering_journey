@@ -341,3 +341,14 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
     - Unique index
     - Filtered index
   - Index management techiniques
+
+
+# Dia 23
+  - Estudo de execution Plan 
+  - Conceito de SQL Hints
+  - Indexing strategy 
+    - Avoid over index
+    - #1 Initial indexing strategy
+    - #2 Usage patterns indexing
+    - #3 Scenario-Based indexing
+    - #4 Monitoring & maintenance
