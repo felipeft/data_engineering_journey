@@ -352,3 +352,15 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
     - #2 Usage patterns indexing
     - #3 Scenario-Based indexing
     - #4 Monitoring & maintenance
+
+# Dia 24
+
+- Estudo das técnicas de partition tables
+- Porque usar
+- Como construir partitions
+  - Partition Functions
+  - Filegroups
+  - Datafiles
+  - Schemes
+  - Create partition table
+  - insert data into the partitioned table
