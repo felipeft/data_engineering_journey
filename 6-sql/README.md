@@ -364,3 +364,38 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
   - Schemes
   - Create partition table
   - insert data into the partitioned table
+
+# Dia 25
+
+- Dicas de perfomance
+- 30x perfomance Tips:
+  - TIP 1: Select Only what you need
+  - TIP 2: Avoid unnecessary DISTINCT & ORDER BY
+  - TIP 3: For exploration purpose, Limit rows
+  - TIP 4: Create nonclustered index on frequently used columns in WHERE clause
+  - TIP 5: Avoid applying functions to columns in WHERE clauses
+  - TIP 6: Avoid leading wildcards as they prevent index usage
+  - TIP 7: Use IN instead of Multiple OR
+  - TIP 8: Understand The Speed of Joins & Use INNER JOIN when possible
+  - TIP 9: Use Explicit Join (ANSI Join) Instead of Implicit Join (non-ANSI Join)
+  - TIP 10: Make sure to Index the columns used in the ON clause
+  - TIP 11: Filter Before Joining (Big Tables)
+  - TIP 12: Aggregate Before Joining (Big Tables)
+  - TIP 13: Use Union Instead of OR in Joins
+  - TIP 14: Check for Nested Loops and Use SQL HINTS
+  - TIP 15: Use UNION ALL instead of using UNION | duplicates are acceptable
+  - TIP 16: Use UNION ALL + Distinct instead of using UNION | duplicates are not acceptable
+  - TIP 17: Use Columnstore Index for Aggregations on Large Table
+  - TIP 18: Pre-Aggregate Data and store it in new Table for Reporting
+  - TIP 19: JOIN vs EXISTS vs IN (Avoid using IN)
+  - TIP 20: Avoid Redundant Logic in Your Query
+  - TIP 21: Avoid VARCHAR Data Type If Possible
+  - TIP 22: Avoid Using MAX or Overly Large Lengths
+  - TIP 23: Use NOT NULL If possible 
+  - TIP 24: Make sure all tables have a CLUSTERED PRIMARY KEY
+  - TIP 25: Creeate Nonclustered Index on Foreign Key if they are frequently used
+  - TIP 26: Avoid Over Indexing, as it can slow down insert, update, and delete operations
+  - TIP 27: Regularly review and drop unused indexes to save space and improve write performance
+  - TIP 28: Update table statistics weekly to ensure the query optimizer has the most up-to-date information
+  - TIP 29: Reorganize and rebuild fragmented indexes weekly to maintain query performance.
+  - TIP 30: For large tables (e.g., fact tables), partition the data and then apply a columnstore index for best performance results
