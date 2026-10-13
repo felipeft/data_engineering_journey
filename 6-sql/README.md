@@ -399,3 +399,25 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
   - TIP 28: Update table statistics weekly to ensure the query optimizer has the most up-to-date information
   - TIP 29: Reorganize and rebuild fragmented indexes weekly to maintain query performance.
   - TIP 30: For large tables (e.g., fact tables), partition the data and then apply a columnstore index for best performance results
+
+# Dia 26
+
+- Estudo de técnicas de utilização de IA como auxilio no desenvolvimento SQL
+- Uso do copilot ou github
+- SQL AI prompts:
+    1. Solve an SQL Task
+    2. Improve the Readability
+    3. Optimize the Performance Query
+    4. Optimize Execution Plan
+    5. Debugging
+    6. Explain the Result
+    7. Styling & Formatting
+    8. Documentations & Comments
+    9. Improve Database DDL
+    10. Generate Test Dataset
+    11. Create SQL Course
+    12. Understand SQL Concept
+    13. Comparing SQL Concepts
+    14. SQL Questions with Options
+    15. Prepare for a SQL Interview
+    16. Prepare for a SQL Exam
