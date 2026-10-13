@@ -421,3 +421,19 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
     14. SQL Questions with Options
     15. Prepare for a SQL Interview
     16. Prepare for a SQL Exam
+
+# Dia 27
+
+- Inicio do projeto Data warehouse
+- Conceito de data warehouse
+- Diferença entre data warehouse, data lake, data lakehouse e datamesh
+- Estudo de abordagens:
+  - Inmon
+  - Kimball
+  - Data vault
+  - medallion architecture
+- Definição de SoC
+- Estruturação do projeto no Notion e github
+- Construção do diagrama da arquitetura do projeto no Draw.io
+- Criação do banco de dados no dbeaver
+- Link repositório projeto: [SQL Data Warehouse Project](https://github.com/felipeft/sql-data-warehouse-project.git)
