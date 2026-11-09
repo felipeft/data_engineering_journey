@@ -437,3 +437,28 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
 - Construção do diagrama da arquitetura do projeto no Draw.io
 - Criação do banco de dados no dbeaver
 - Link repositório projeto: [SQL Data Warehouse Project](https://github.com/felipeft/sql-data-warehouse-project.git)
+
+
+# Dia 28
+- Continuação do projeto: [SQL Data Warehouse Project](https://github.com/felipeft/sql-data-warehouse-project.git)
+- Camada bronze completa
+
+
+# Dia 29
+- Continuação do projeto: [SQL Data Warehouse Project](https://github.com/felipeft/sql-data-warehouse-project.git)
+- Camada silver completa
+
+# Dia 30
+- Termino do projeto: [SQL Data Warehouse Project](https://github.com/felipeft/sql-data-warehouse-project.git)
+- Camada gold completa com adicional de um dashboard em power BI dessa camada
+
+# Dia 31
+- Primeira parte do projeto Exploratory Data Analysis (EDA)  
+- Estudo de Dimension vs. Measure
+- Configuração ambiente 
+- Exploratory EDA:
+  - Database exploration
+  - Dimension exploration
+  - Measure exploration
+  - Magnitude exploration
+  - Ranking exploration
