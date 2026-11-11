@@ -462,3 +462,22 @@ O estudo é realizado mesclando conhecimento teórico com tasks práticas sobre 
   - Measure exploration
   - Magnitude exploration
   - Ranking exploration
+
+# Dia 32
+- Segunda parte do projeto Exploratory Data Analysis (EDA) 
+- Mais avançado 
+- A ideia foi responder questoes de negócios utilizando:
+  - Complex queries
+  - Window functions
+  - CTE
+  - Subqueries
+  - Reports
+- Análises feitas: 
+  - Change over time analysis
+  - Cumulative analysis
+  - Perfomance analysis
+  - Part to whole analysis
+  - Data segmentation analysis
+  - Reporting
+    - Customer aggregation
+    - Products aggregation
