@@ -9,4 +9,4 @@
     - Products aggregation
 
 
-![Project Roadmap](6-sql/sql-data-analytics-project-scripts/Project Roadmap.png)
+![Project Roadmap](6-sql/sql-data-analytics-project-scripts/ProjectRoadmap.png)
